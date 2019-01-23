@@ -20,6 +20,8 @@ namespace somemeaningfulname
             }
             Console.WriteLine("sum ={0}", sum);
             Console.ReadLine();
+
+            int cat = 84;
         }
     }
 }
