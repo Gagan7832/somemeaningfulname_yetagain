@@ -10,13 +10,15 @@ namespace somemeaningfulname
     {
         static void Main(string[] args)
         {
-            int sum = 0;
-            for(int i = 14; i>10;)
+            int i = 5,
+            sum = 0;
+            while(i<=10)
             {
-                i++;
                 sum += i;
+                i++;
+                
             }
-            Console.WriteLine(sum);
+            Console.WriteLine("sum ={0}", sum);
             Console.ReadLine();
         }
     }
